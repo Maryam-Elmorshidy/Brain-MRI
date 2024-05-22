@@ -9,7 +9,6 @@ from navigation.more import more_page
 from navigation.home import home_page
 from navigation.patient import patient_page
 
-from utils.components import footer_style, footer
 try:
     from streamlit import rerun as rerun
 except ImportError:
@@ -48,9 +47,6 @@ st.markdown("""
         </style>
         """, unsafe_allow_html=True)
 
-# Footer
-
-st.markdown(footer_style, unsafe_allow_html=True)
 
 ###########
 
@@ -99,15 +95,6 @@ elif chosen_tab == MORE:
     more_page()
 
 ###########
-
-
-###end###
-for i in range(4):
-    st.markdown('#')
-st.markdown(footer, unsafe_allow_html=True)   # from utils components
-
-#########
-
 
 ###sidebar###
 
