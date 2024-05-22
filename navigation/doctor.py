@@ -12,14 +12,6 @@ from navigation.using_modelDR import use_page
 from navigation.results import result_page
 from navigation.resources import resouces_page
 
-
-import streamlit_lottie
-import time
-import json
-
-
-
-from utils.components import footer_style, footer
 try:
     from streamlit import rerun as rerun
 except ImportError:
