@@ -61,7 +61,7 @@ To stabilize training and facilitate gradient flow, the Swin Transformer incorpo
 
 ###### By utilizing the Swin Transformer architecture, the prediction model achieves state-of-the-art performance in predicting Alzheimer's disease based on MRI scans. The combination of patch embedding, multi-scale self-attention, and hierarchical representation learning enables the model to effectively capture and analyze complex patterns in medical imaging data, leading to accurate and reliable predictions.
           """ , unsafe_allow_html=True)
-        st.image("./project4/img/swin.png")
+        st.image("./img/swin.png")
 
     with st.expander("2. Training Data") :
         st.markdown("""
@@ -81,7 +81,7 @@ The Alzheimer's Dataset comprises MRI scans from individuals diagnosed with diff
 
 ###### By training the model on this diverse dataset with multiple classes representing different stages of Alzheimer's disease, the prediction model learns to distinguish between normal brain scans and those indicative of Alzheimer's disease progression. This training process enables the model to make accurate predictions when presented with new MRI scans, aiding in the early detection and diagnosis of Alzheimer's disease.
 """ , unsafe_allow_html=True)   
-        st.image("./project4/img/MRI.png")
+        st.image("./img/MRI.png")
 
     with st.expander("3. Data Preprocessing") :
         st.markdown("""
@@ -150,7 +150,7 @@ In the context of fine-tuning for Alzheimer's disease prediction, the head of th
 
 ###### By fine-tuning the pre-trained Swin Transformer model and modifying its head architecture, the model can adapt to the task of Alzheimer's disease prediction and achieve improved performance on the target dataset.
 """ , unsafe_allow_html=True)
-        st.image("./project4/img/model.png")
+        st.image("./img/model.png")
 
     with st.expander("5. Loss Function and Optimization") :
         st.markdown("""
@@ -160,7 +160,7 @@ In the context of fine-tuning for Alzheimer's disease prediction, the head of th
 The loss function used for training the model is crucial as it quantifies the discrepancy between the predicted output of the model and the actual target labels. In this case, the loss function chosen is LabelSmoothingCrossEntropy.
     
                     """,unsafe_allow_html=True)
-        st.image("./project4/img/loss.png") 
+        st.image("./img/loss.png") 
         st.markdown("""                    
 ##### LabelSmoothingCrossEntropy:
 LabelSmoothingCrossEntropy is a variant of the traditional cross-entropy loss function, commonly used in classification tasks. It addresses the issue of overconfidence by penalizing the model for being too confident in its predictions. Specifically, it smooths the ground truth labels by redistributing some of the probability mass from the true class to other classes. This regularization encourages the model to learn more robust decision boundaries and reduces the risk of overfitting.
@@ -282,7 +282,7 @@ In addition to summarizing the achievements of the current prediction model, the
 
 ###### By outlining these potential future directions, the conclusion sets the stage for ongoing research and innovation in the field of Alzheimer's disease prediction, with the ultimate goal of improving patient care and advancing our understanding of this complex neurological condition.
 """ , unsafe_allow_html=True)
-        st.image("./project4/img/nnModel.png")  #https://www.nature.com/articles/s41598-020-79243-9
+        st.image("./img/nnModel.png")  #https://www.nature.com/articles/s41598-020-79243-9
 
 
         
