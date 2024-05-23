@@ -41,4 +41,4 @@ def resouces_page ():
 
     """ ,unsafe_allow_html=True)
 
-    st.image("./project4/img/Alzheimer2.png")
+    st.image("./img/Alzheimer2.png")
