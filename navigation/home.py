@@ -13,7 +13,7 @@ def home_page():
 
     # Load a random image
     random.seed()
-    image_path = vpth + random.choice(["./project4/img/Alzheimer.jpg","./project4/img/Alzheimer1.jpg","./project4/img/brain1.jpg"])
+    image_path = vpth + random.choice(["./img/Alzheimer.jpg","./img/Alzheimer1.jpg","./img/brain1.jpg"])
     image = Image.open(image_path)
 
     # Display the heading in the first column
@@ -53,23 +53,23 @@ If you feel that your condition is not related to outside causes, or that you ma
     c1, c2 , c3 , c4= st.columns(4)
 
     
-    image_path = vpth + "/project4/img_brain/mild/mild1.jpg"
+    image_path = vpth + "./img_brain/mild/mild1.jpg"
     image1 = Image.open(image_path)
 
     c1.image(image1, use_column_width='auto')
 
     
-    image_path = vpth + "/project4/img_brain/mild/mild2.jpg"
+    image_path = vpth + "./img_brain/mild/mild2.jpg"
     image2 = Image.open(image_path)
 
     c2.image(image2, use_column_width='auto')
 
-    image_path = vpth + "/project4/img_brain/mild/mild3.jpg"
+    image_path = vpth + "./img_brain/mild/mild3.jpg"
     image3 = Image.open(image_path)
 
     c3.image(image3, use_column_width='auto')
 
-    image_path = vpth + "/project4/img_brain/mild/mild4.jpg"
+    image_path = vpth + "./img_brain/mild/mild4.jpg"
     image4 = Image.open(image_path)
 
     c4.image(image4, use_column_width='auto')
@@ -80,23 +80,23 @@ If you feel that your condition is not related to outside causes, or that you ma
 
     c1, c2 , c3 , c4= st.columns(4)
 
-    image_path = vpth + "/project4/img_brain/moderate/moderate1.jpg"
+    image_path = vpth + "./img_brain/moderate/moderate1.jpg"
     image1 = Image.open(image_path)
 
     c1.image(image1, use_column_width='auto')
 
     
-    image_path = vpth + "/project4/img_brain/moderate/moderate2.jpg"
+    image_path = vpth + "./img_brain/moderate/moderate2.jpg"
     image2 = Image.open(image_path)
 
     c2.image(image2, use_column_width='auto')
 
-    image_path = vpth + "/project4/img_brain/moderate/moderate3.jpg"
+    image_path = vpth + "./img_brain/moderate/moderate3.jpg"
     image3 = Image.open(image_path)
 
     c3.image(image3, use_column_width='auto')
 
-    image_path = vpth + "/project4/img_brain/moderate/moderate4.jpg"
+    image_path = vpth + "./img_brain/moderate/moderate4.jpg"
     image4 = Image.open(image_path)
 
     c4.image(image4, use_column_width='auto')
