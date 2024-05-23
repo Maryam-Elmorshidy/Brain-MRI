@@ -4,6 +4,7 @@ from PIL import Image
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 from torchvision.models import resnet50, ResNet50_Weights
 
 from captum.attr import IntegratedGradients
@@ -48,7 +49,7 @@ Alzheimer’s disease (AD) is the most common neurological disease due to a diso
 
 """,unsafe_allow_html=True)
     
-    c2.image("./project4/img/Alzheimer6.jpg")
+    c2.image("./img/Alzheimer6.jpg")
     c2.markdown("""
                 
 In our quest to aid early diagnosis and intervention, we have developed a prediction model that utilizes advanced technology to analyze MRI (Magnetic Resonance Imaging) scans of the brain. MRI scans provide detailed images of the brain's structure and function, allowing us to identify subtle changes associated with Alzheimer's disease.                
@@ -62,7 +63,7 @@ In the following sections, we'll delve into how our prediction model works, the 
 
 """,unsafe_allow_html=True)
     
-    c1.image("./project4/img/Alzheimer4.jpg")
+    c1.image("./img/Alzheimer4.jpg")
 
 
     st.markdown(horizontal_bar, True) 
@@ -140,7 +141,7 @@ Imagine your brain is like a city. An MRI scan is like taking a high-resolution 
 
 
 """ , unsafe_allow_html=True)
-    st.image("./project4/img/MRI.jpg")
+    st.image("./img/MRI.jpg")
     st.markdown(horizontal_bar, True) 
 
     
@@ -161,7 +162,7 @@ Imagine your brain is like a city. An MRI scan is like taking a high-resolution 
 - **Brain Connectivity:** The model examines how different parts of your brain communicate with each other. Changes in brain connectivity can be another sign of Alzheimer's disease.
 """ , unsafe_allow_html=True)
     
-    c4.image("./project4/img/Alzheimer5.jpg")
+    c4.image("./img/Alzheimer5.jpg")
     
     st.markdown("""
 **How It Works:**
@@ -206,7 +207,7 @@ Imagine your brain is like a city. An MRI scan is like taking a high-resolution 
    - Neurofibrillary tangles are twisted fibers found inside brain cells. They are another hallmark of Alzheimer's disease. The model checks for the presence of these tangles.
 """ , unsafe_allow_html=True)
     
-    c6.image("./project4/img/Alzheimer3.jpg")
+    c6.image("./img/Alzheimer3.jpg")
 
 
     st.markdown("""
@@ -255,7 +256,7 @@ Imagine your brain is like a city. An MRI scan is like taking a high-resolution 
 
     
      
-    c8.image("./project4/img/Alzheimer7.jpg")
+    c8.image("./img/Alzheimer7.jpg")
     st.markdown("""    
 **Simple and Clear Explanations:**
 - We ensure the entire process is explained in a way that's easy to understand. Our goal is to help you grasp how the model works without overwhelming you with technical terms.
@@ -293,6 +294,6 @@ Imagine your brain is like a city. An MRI scan is like taking a high-resolution 
                
 """ , unsafe_allow_html=True)
     
-    c10.image("./project4/img/Alzheimer3.png")
+    c10.image("./img/Alzheimer3.png")
 
     st.markdown(horizontal_bar, True)
